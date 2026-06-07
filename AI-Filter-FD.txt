@@ -1,0 +1,140 @@
+# ============================================================
+#  AI BLOCKLIST VOOR PI-HOLE
+#  Blokkeert AI-diensten, AI-API's, VS Code AI-extensies,
+#  Microsoft Copilot (Edge, Bing, Windows) en DoH-providers.
+# ============================================================
+
+
+# -------------------------
+# GITHUB COPILOT
+# -------------------------
+api.githubcopilot.com
+copilot-proxy.githubusercontent.com
+githubcopilot.com
+*.githubcopilot.com
+
+
+# -------------------------
+# OPENAI / CHATGPT
+# -------------------------
+api.openai.com
+chat.openai.com
+openai.com
+*.openai.com
+
+
+# -------------------------
+# GOOGLE GEMINI
+# -------------------------
+generativelanguage.googleapis.com
+ai.google.dev
+gemini.google.com
+*.googleapis.com
+
+
+# -------------------------
+# MICROSOFT COPILOT (EDGE, BING, WINDOWS)
+# -------------------------
+copilot.microsoft.com
+www.copilot.microsoft.com
+copilot-api.microsoft.com
+assets.msn.com
+api.msn.com
+bing.com
+www.bing.com
+cn.bing.com
+api.bing.com
+copilot.bing.com
+edge.microsoft.com
+services-edge.microsoft.com
+api.cognitive.microsoft.com
+*.cognitive.microsoft.com
+*.bing.com
+*.microsoftcopilot.com
+*.copilot.microsoft.com
+
+
+# -------------------------
+# MICROSOFT AZURE OPENAI
+# -------------------------
+*.openai.azure.com
+*.api.cognitive.microsoft.com
+
+
+# -------------------------
+# ANTHROPIC CLAUDE
+# -------------------------
+api.anthropic.com
+claude.ai
+*.claude.ai
+
+
+# -------------------------
+# HUGGINGFACE
+# -------------------------
+api-inference.huggingface.co
+huggingface.co
+*.huggingface.co
+
+
+# -------------------------
+# STABILITY AI
+# -------------------------
+api.stability.ai
+stability.ai
+*.stability.ai
+
+
+# -------------------------
+# COHERE
+# -------------------------
+api.cohere.ai
+cohere.ai
+*.cohere.ai
+
+
+# -------------------------
+# MISTRAL AI
+# -------------------------
+api.mistral.ai
+mistral.ai
+*.mistral.ai
+
+
+# -------------------------
+# PERPLEXITY AI
+# -------------------------
+api.perplexity.ai
+perplexity.ai
+*.perplexity.ai
+
+
+# -------------------------
+# VS CODE AI EXTENSIONS
+# -------------------------
+vscode.dev
+*.vscode.dev
+marketplace.visualstudio.com
+*.marketplace.visualstudio.com
+
+# Optioneel: blokkeert GitHub integratie in VS Code
+# api.github.com
+
+
+# -------------------------
+# DNS-OVER-HTTPS (DoH) PROVIDERS
+# Voorkomt dat studenten Pi-hole omzeilen
+# -------------------------
+cloudflare-dns.com
+mozilla.cloudflare-dns.com
+dns.google
+dns.quad9.net
+dns.nextdns.io
+dns.adguard.com
+doh.opendns.com
+doh.cleanbrowsing.org
+
+
+# ============================================================
+# EINDE VAN DIT BESTAND
+# ============================================================
